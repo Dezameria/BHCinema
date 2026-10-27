@@ -1,0 +1,24 @@
+{
+  "required": true,
+  "minVersion": "0.8.5",
+  "compatibilityLevel": "JAVA_17",
+  "package": "net.deizyn.bhcinema.mixin",
+  "refmap": "bhcinema.refmap.json",
+  "client": [
+    "CameraMixin",
+    "EpicFightCameraMixin",
+    "EpicFightPlayerMixin",
+    "EpicFightRenderEventsMixin",
+    "FiguraExtraFightMixin",
+    "ForgeGuiMixin",
+    "GameRendererMixin",
+    "GuiGraphicsMixin",
+    "MouseHandlerMixin",
+    "PlasmoVoiceListenerMixin",
+    "PlasmoVoiceSourceMixin",
+    "RenderSystemMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
